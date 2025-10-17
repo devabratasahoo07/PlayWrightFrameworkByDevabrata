@@ -1,0 +1,3 @@
+running login page  fixture before test useong json file
+Read JSON FILE
+running After test json data

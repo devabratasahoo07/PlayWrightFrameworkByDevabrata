@@ -1,0 +1,123 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "logo" [ref=e7] [cursor=pointer]
+        - heading "Learn Automation Courses" [level=1] [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - img "menu" [ref=e10] [cursor=pointer]
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - text: Learn Automation Courses
+            - img "delete" [ref=e13] [cursor=pointer]
+          - generic [ref=e14]:
+            - link "Home" [ref=e15] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e16] [cursor=pointer]: Home
+            - link "Practise" [ref=e17] [cursor=pointer]:
+              - /url: /practise
+              - generic [ref=e18] [cursor=pointer]: Practise
+            - button "Log in" [ref=e19] [cursor=pointer]
+  - generic [ref=e21]:
+    - generic [ref=e24]:
+      - heading "Sign Up" [level=2] [ref=e25]
+      - textbox "Name" [ref=e26]: Akshay
+      - textbox "Email" [ref=e27]: Akshay_1760076753222@gmail.com
+      - textbox "Password must be atleast 6 characters" [ref=e28]: akshay@123
+      - heading "Interests" [level=4] [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - checkbox "Cypress" [checked] [ref=e33]
+          - generic [ref=e34]: Cypress
+        - generic [ref=e35]:
+          - checkbox "AWS" [ref=e37]
+          - generic [ref=e38]: AWS
+        - generic [ref=e39]:
+          - checkbox "SQL" [ref=e41]
+          - generic [ref=e42]: SQL
+        - generic [ref=e43]:
+          - checkbox "WDIO" [ref=e45]
+          - generic [ref=e46]: WDIO
+        - generic [ref=e47]:
+          - checkbox "Playwright in JS" [ref=e49]
+          - generic [ref=e50]: Playwright in JS
+      - heading "Gender" [level=4] [ref=e51]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - radio [checked] [ref=e54]
+          - generic [ref=e55]: Male
+        - generic [ref=e56]:
+          - radio [ref=e57]
+          - generic [ref=e58]: Female
+      - generic [ref=e59]:
+        - heading "State:" [level=4] [ref=e60]
+        - combobox [ref=e61]:
+          - option "Andhra Pradesh"
+          - option "Arunachal Pradesh"
+          - option "Assam"
+          - option "Bihar"
+          - option "Chhattisgarh"
+          - option "Goa" [selected]
+          - option "Gujarat"
+          - option "Haryana"
+          - option "Himachal Pradesh"
+          - option "Jammu and Kashmir"
+          - option "Jharkhand"
+          - option "Karnataka"
+          - option "Kerala"
+          - option "Madhya Pradesh"
+          - option "Maharashtra"
+          - option "Manipur"
+          - option "Meghalaya"
+          - option "Mizoram"
+          - option "Nagaland"
+          - option "Odisha"
+          - option "Punjab"
+          - option "Rajasthan"
+          - option "Sikkim"
+          - option "Tamil Nadu"
+          - option "Telangana"
+          - option "Tripura"
+          - option "Uttarakhand"
+          - option "Uttar Pradesh"
+          - option "West Bengal"
+          - option "Andaman and Nicobar Islands"
+          - option "Chandigarh"
+          - option "Dadra and Nagar Haveli"
+          - option "Daman and Diu"
+          - option "Delhi"
+          - option "Lakshadweep"
+          - option "Puducherry"
+      - generic [ref=e62]:
+        - heading "Hobbies:" [level=4] [ref=e63]
+        - listbox [ref=e64]:
+          - option "Playing" [ref=e65]
+          - option "Reading" [ref=e66]
+          - option "Swimming" [ref=e67]
+          - option "Singing" [ref=e68]
+          - option "Dancing" [selected] [ref=e69]
+      - button "Sign up" [active] [ref=e70] [cursor=pointer]
+      - link "Already a user? Login" [ref=e71] [cursor=pointer]:
+        - /url: /login
+    - img "Login" [ref=e73]
+  - generic [ref=e75]:
+    - generic [ref=e76]:
+      - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e77]
+      - heading "©2023 All rights reserved" [level=2] [ref=e78]
+    - generic [ref=e79] [cursor=pointer]:
+      - link [ref=e80] [cursor=pointer]:
+        - /url: https://youtube.com/MukeshOtwani
+        - img [ref=e81] [cursor=pointer]
+      - link [ref=e84] [cursor=pointer]:
+        - /url: https://twitter.com/MukeshOtwani
+        - img [ref=e85] [cursor=pointer]
+      - link [ref=e87] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+        - img [ref=e88] [cursor=pointer]
+      - link [ref=e90] [cursor=pointer]:
+        - /url: https://www.facebook.com/groups/256655817858291
+        - img [ref=e91] [cursor=pointer]
+```
