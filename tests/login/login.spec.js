@@ -1,18 +1,25 @@
-import { test } from "../../fixtures/auth.fixture.js";
+
+import {test} from "../../fixtures/auth.fixture.js"
+
 import { LoginPage } from "../../pages/LoginPage.js"
 
-test.skip("login Scenario",async function({page,loginpage}){
+test.skip("Login Scenario with hard coded data",async function({page,loginPage})
+{
 
-
-await page.waitForTimeout(2000)
+    await page.waitForTimeout(2000)
+    
 })
-test.skip ("login Scenario useing JSON",async function({page,loginpageUsingJSON}){
 
-
-await page.waitForTimeout(2000)
+test.skip("Login Scenario with json data",async function({page,loginPageJSON})
+{
+   
+    await page.waitForTimeout(5000)
+    
 })
-test("login Scenario without Fixture",async function({page,loginpageUsingJSON}){
-const loginPage=new LoginPage(page)
+
+test("Login Scenario without fixture",async function({page})
+{
+    const loginPage=new LoginPage(page)
 
     await loginPage.gotoURL()
 
@@ -21,6 +28,5 @@ const loginPage=new LoginPage(page)
     await loginPage.fillPassword("admin@123")
 
     await loginPage.submit()
-
-await page.waitForTimeout(2000)
+    
 })

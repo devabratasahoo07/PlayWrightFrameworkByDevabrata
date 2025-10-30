@@ -1,9 +1,9 @@
 import {test,expect} from "../../fixtures/auth.fixture.js"
 import {CoursePage} from "../../pages/CoursePage.js"
-import {CategoryPage} from "../../pages/catagoryPage.js"
+import {CategoryPage} from "../../pages/CategoryPage.js"
 import {HomePage} from "../../pages/HomePage.js"
 
- test("Verify User Should Be Able To Create Category",async function ({page,context,loginPage}) 
+test("Verify User Should Be Able To Create Category",async function ({page,context,loginPage}) 
 {
    // test.setTimeout(0)
     

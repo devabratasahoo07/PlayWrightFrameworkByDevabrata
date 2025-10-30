@@ -1,7 +1,7 @@
 import {test, expect} from "../../fixtures/auth.fixture.js";
 import {LoginPage} from '../../pages/LoginPage.js';
 import {HomePage} from '../../pages/HomePage.js';
-import {getCurrentDate} from '../../utils/utility.js';
+import {getCurrentDate} from '../../utils/utility';
 import {CoursePage} from '../../pages/CoursePage.js';
 
 test.describe('Create New Course Tests', async () => {
@@ -13,13 +13,14 @@ test.describe('Create New Course Tests', async () => {
     let homePage;
 
     test.beforeEach(async ({page}) => 
-        {
+        
+    {
         loginPage = new LoginPage(page);
         coursePage = new CoursePage(page);
         homePage = new HomePage(page);
     });
 
-    test('Verify that user is able to create a new course with valid details', async ({page,loginPage,courseCreationJSON}) => 
+    test('Verify that user is able to create a new course with valid details', async ({page,loginPageExcel,courseCreationJSON}) => 
         {
         console.log("Course Data from Fixture: ", courseCreationJSON);
         await coursePage.clickOnManegeCourse();   
